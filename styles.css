@@ -90,8 +90,10 @@ p {
 .coin-name {
     font-size: 1.5em;
     font-weight: bold;
-    color: #ffcc00;
-    text-shadow: 0 0 10px #ffcc00;
+    background: linear-gradient(90deg, #00ffff, #ff00ff, #6600ff); /* Gradient matching logo colors */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* Transparent text with gradient background */
+    text-shadow: 0 0 10px rgba(0, 255, 255, 0.5), 0 0 20px rgba(255, 0, 255, 0.5); /* Glow effect */
 }
 
 /* Footer */
