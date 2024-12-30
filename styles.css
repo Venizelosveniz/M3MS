@@ -1,6 +1,7 @@
-/* General Body Styling with Background */
+/* General Body Styling with Image Background */
 body {
-    background: linear-gradient(135deg, #121212, #1e1e1e); /* Gradient Background */
+    background: url('background.png') no-repeat center center fixed; /* Use the uploaded background image */
+    background-size: cover; /* Ensures the background image covers the entire screen */
     color: #ffffff;
     font-family: Arial, sans-serif;
     margin: 0;
@@ -14,7 +15,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.8); /* Slight transparency over the background */
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -41,7 +42,6 @@ nav ul li a {
 #hero {
     text-align: center;
     padding: 50px 20px;
-    background: linear-gradient(135deg, #00ffcc, #1e1e1e);
     color: #ffffff;
 }
 
