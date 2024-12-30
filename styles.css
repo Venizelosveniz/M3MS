@@ -1,18 +1,20 @@
+/* General Body Styling with Background */
 body {
+    background: linear-gradient(135deg, #121212, #1e1e1e); /* Gradient Background */
+    color: #ffffff;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: #121212;
-    color: #ffffff;
     line-height: 1.6;
 }
 
+/* Header Styling */
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background: #1e1e1e;
+    background: rgba(0, 0, 0, 0.8);
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -35,10 +37,12 @@ nav ul li a {
     font-weight: bold;
 }
 
+/* Hero Section Styling */
 #hero {
     text-align: center;
     padding: 50px 20px;
-    background: linear-gradient(135deg, #3a3a3a, #1e1e1e);
+    background: linear-gradient(135deg, #00ffcc, #1e1e1e);
+    color: #ffffff;
 }
 
 #hero h1 {
@@ -59,6 +63,7 @@ nav ul li a {
     font-weight: bold;
 }
 
+/* Sections Styling */
 section {
     padding: 20px;
     margin: 20px 0;
@@ -68,8 +73,10 @@ h2 {
     color: #00ffcc;
 }
 
+/* Footer Styling */
 footer {
     text-align: center;
     padding: 10px 0;
-    background: #1e1e1e;
+    background: rgba(0, 0, 0, 0.8);
+    color: #ffffff;
 }
