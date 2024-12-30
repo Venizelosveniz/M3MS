@@ -21,7 +21,7 @@ body::before {
     z-index: -1;
 }
 
-/* Header, Hero, and Logo Styling */
+/* Header Styling */
 header {
     display: flex;
     justify-content: space-between;
@@ -33,6 +33,7 @@ header {
     z-index: 1000;
 }
 
+/* Logo Styling */
 .logo img {
     width: 100px;
     height: auto;
@@ -51,6 +52,7 @@ nav ul li a {
     font-weight: bold;
 }
 
+/* Hero Section */
 #hero {
     text-align: center;
     padding: 60px 20px;
@@ -91,6 +93,7 @@ nav ul li a {
     gap: 20px;
     justify-content: center;
     flex-wrap: wrap;
+    text-align: center;
 }
 
 .benefit-card {
@@ -98,13 +101,18 @@ nav ul li a {
     border-radius: 10px;
     padding: 20px;
     max-width: 300px;
-    text-align: center;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
 
-.benefit-card img {
-    width: 80px;
+.benefit-card h3 {
+    font-size: 1.5em;
+    color: #ffcc00;
     margin-bottom: 10px;
+}
+
+.benefit-card p {
+    font-size: 1.2em;
+    line-height: 1.5;
 }
 
 /* Stake Now Section */
