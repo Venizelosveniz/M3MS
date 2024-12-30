@@ -21,7 +21,7 @@ body::before {
     z-index: -1;
 }
 
-/* Header Styling */
+/* Header, Hero, and Logo Styling */
 header {
     display: flex;
     justify-content: space-between;
@@ -33,10 +33,9 @@ header {
     z-index: 1000;
 }
 
-/* Logo Styling */
 .logo img {
-    width: 100px; /* Increased size for better visibility */
-    height: auto; /* Maintains aspect ratio */
+    width: 100px;
+    height: auto;
 }
 
 nav ul {
@@ -52,7 +51,6 @@ nav ul li a {
     font-weight: bold;
 }
 
-/* Hero Section */
 #hero {
     text-align: center;
     padding: 60px 20px;
@@ -76,30 +74,44 @@ nav ul li a {
     font-weight: bold;
 }
 
-/* Section Titles and Text */
-h2 {
-    font-size: 2.5em;
-    color: #00ffcc;
-}
-
-p {
-    font-size: 1.3em;
-}
-
-/* Highlighted Coin Name */
+/* Coin Name Styling */
 .coin-name {
     font-size: 1.5em;
     font-weight: bold;
-    background: linear-gradient(90deg, #00ffff, #ff00ff, #6600ff); /* Gradient matching logo colors */
+    background: linear-gradient(90deg, #00ffff, #ff00ff, #6600ff);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; /* Transparent text with gradient background */
-    text-shadow: 0 0 10px rgba(0, 255, 255, 0.5), 0 0 20px rgba(255, 0, 255, 0.5); /* Glow effect */
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 10px rgba(0, 255, 255, 0.5), 0 0 20px rgba(255, 0, 255, 0.5);
 }
 
-/* Footer */
-footer {
-    text-align: center;
-    padding: 20px;
+/* Benefits Section */
+#benefits {
+    padding: 40px 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.benefit-card {
     background: rgba(0, 0, 0, 0.8);
-    font-size: 1.2em;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.benefit-card img {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+/* Stake Now Section */
+#stake-now {
+    text-align: center;
+    padding: 40px 20px;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 20px;
+    border-radius: 10px;
 }
