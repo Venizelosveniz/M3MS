@@ -33,8 +33,10 @@ header {
     z-index: 1000;
 }
 
+/* Logo Styling */
 .logo img {
-    width: 60px;
+    width: 100px; /* Increased size for better visibility */
+    height: auto; /* Maintains aspect ratio */
 }
 
 nav ul {
